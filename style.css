@@ -1,1 +1,65 @@
+.palette{
+    color: #910707; /* темно-червоний */ 
+    color: #bf0a0a; /* світло-червоний */ 
+    color: #bf220a; /* оранжовий-червоний */ 
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+body{
+background: #ff0000;
+background: linear-gradient(0deg, rgba(255, 0, 0, 1) 0%, rgba(145, 0, 0, 1) 100%);
+}
 
+
+header{
+    background-color: orange;
+}
+
+/* --- СТИЛІ ДЛЯ МЕНЮ  --- */
+.menu{
+    list-style: none;
+    margin: 0;
+    background-color: orange;
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    
+}
+
+
+.product-container {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.product-card {
+    background-color: white;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.product-card img{
+    width: 95%;
+}
+
+.logo{
+    text-align: center;
+    color: #9400d3;
+    font-size: 35px;
+}
